@@ -1,0 +1,34 @@
+{
+  "employee": [
+    {
+      "id": 100,
+      "name": "Raju",
+      "DOJ": "15/10/2022",
+      "salary": 32000,
+      "email": "raju.1@gamil.com"
+    },
+    {
+      "id": 101,
+      "name": "Raji",
+      "DOJ": "15/10/2022",
+      "salary": 32000,
+      "email": "raji1@gamil.com"
+    }
+  ],
+  "users": [
+    {
+      "name": "Jesly",
+      "mail": "jesly.1@gmail.com",
+      "contact": 9961937705,
+      "pwd": "hai123",
+      "id": 1
+    },
+    {
+      "name": "Anju",
+      "mail": "anj@anju",
+      "contact": 9847143833,
+      "pwd": "anju",
+      "id": 2
+    }
+  ]
+}
