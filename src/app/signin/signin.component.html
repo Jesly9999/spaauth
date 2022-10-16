@@ -1,14 +1,14 @@
 <div class="container">
     
-<form>
+<form [formGroup]="signinForm" (ngSubmit)="signin()" method="get">
     <h1>Login</h1>
     <div class="form-group">
      
-      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email">
+      <input type="email" formControlName="mail" class="form-control" aria-describedby="emailHelp" placeholder="Email">
     </div>
     <div class="form-group mb-4">
       
-      <input type="password" class="form-control" placeholder="Password">
+      <input type="password" class="form-control" formControlName="pwd" placeholder="Password">
     </div>
     <button type="submit" class="btn btn-primary mb-4">Login</button>
     <p>Don't have an account? <a routerLink="/Signup">Sign up</a></p>
